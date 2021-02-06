@@ -1,0 +1,115 @@
+.header {
+  height: 50px;
+  text-align: center;
+  background-color: black;
+  display: inline;
+}
+
+.content {
+  height: 1300px;
+  background-color: rgb(24, 24, 24);  
+}
+
+.inner-content {
+    padding-top: 50px;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+ }
+
+body {
+  color: white;
+}
+
+.tableOne {
+  margin-left: 100px auto;
+}
+
+.texth {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 70px;
+  font-size: 100%;
+}
+
+.row:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.row { display: inline-block; }
+/* start commented backslash hack \*/
+* html .row { height: 1%; }
+.row { display: block; }
+/* close commented backslash hack */
+
+.footer {
+  background-color: black;
+  height: 100px;
+}
+.inner-footer {
+  width: 1000px; 
+}
+
+.button-header {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  align-items: center;
+  justify-content: center;
+}
+
+.video {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+
+@media screen and (max-width: 992px) {
+ 
+.header {
+  height: 100px;
+  background-color: black;
+  width: 1000px; 
+  font-size: 200%;
+}
+
+.content {
+  height: 1300px;
+  width: 1000px; 
+}
+
+.video {
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 6em
+    display: flex;
+}
+
+
+
+.texth {
+    align-items: center;
+    margin-bottom: 80px;
+    font-size: 200%;
+}
+
+.footer {
+  background-color: black;
+  height: 100px;
+  width: 1000px;
+}
+
+}

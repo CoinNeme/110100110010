@@ -1,0 +1,103 @@
+.header {
+  height: 90px;
+  background-color: black;
+}
+
+.content {
+  height: 1300px;
+  background-color: rgb(24, 24, 24);  
+}
+
+.inner-content {
+    padding-top: 50px;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+ }
+
+body {
+  color: white;
+}
+
+.tableOne {
+  margin-left: 100px auto;
+}
+
+.texth {
+    margin-left: 850px;
+    margin-right: ;
+    width: 6em;
+    margin-bottom: 80px;
+    font-size: 100%;
+}
+
+.row:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.row { display: inline-block; }
+/* start commented backslash hack \*/
+* html .row { height: 1%; }
+.row { display: block; }
+/* close commented backslash hack */
+
+.footer {
+  background-color: black;
+  height: 100px;
+}
+.inner-footer {
+  width: 1000px; 
+}
+
+.button-header {
+
+}
+
+.video {
+    margin-left: 480px;
+    margin-right: auto;
+    width: 6em
+}
+
+
+@media screen and (max-width: 992px) {
+ 
+.header {
+  height: 100px;
+  background-color: black;
+  width: 1000px; 
+}
+
+.content {
+  height: 1300px;
+  width: 1000px; 
+}
+
+.video {
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 6em
+}
+
+.texth {
+    margin-left: 300px;
+    margin-right: 410px;
+    width: 6em;
+    margin-bottom: 80px;
+    font-size: 200%;
+}
+
+.footer {
+  background-color: black;
+  height: 100px;
+  width: 1000px;
+}
+
+}
